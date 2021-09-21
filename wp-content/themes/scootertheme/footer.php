@@ -3,7 +3,7 @@
 <footer id="footer">
 			<div class="container">
 				<div class="">
-					<div class="">
+					<div class="about-us">
 						<h4>Kort om oss</h4>
 						<p>
                         TheScooterTeam.se säljer scootrar som är effektiva, miljövänliga och billiga transportmedel. <br />
@@ -11,16 +11,16 @@
                         Med en scooter så kommer du alltid ha en låg totalkostnad
                         </p>
 					</div>
-					<div class="">
+					<div class="contact">
 						<h4>Kontaktuppgifter</h4>
 						<p>
-							The Scooter Team<br />
+							Scooter Haven<br />
 							Gatgatan 1<br />
 							123 45 Stockholm
 						</p>
 						<p>
 							Tel: 0123456789<br />
-							E-post: <a href="">info@scooterteam.com</a>
+							E-post: <a href="">info@scooterhaven.com</a>
 						</p>
 
                         <p> Vardagar: 10:00-18:00<br />
@@ -28,7 +28,7 @@
                             Söndagar: Stängt
                         </p>
 					</div>
-					<div class="">
+					<div class="social-media">
 						<h4>Social media</h4>
 						<ul class="social">
 							<li>
@@ -46,7 +46,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row bottom">
+				<div class="copyright">
 					<div class="">
 						<p>Copyright &copy; Grupp 1, Medieinstitutet, inriktning E-handel, 2021</p>
 					</div>
