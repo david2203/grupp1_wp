@@ -8,7 +8,7 @@
 						<p>
                         TheScooterTeam.se säljer scootrar som är effektiva, miljövänliga och billiga transportmedel. <br />
                         Letandet efter parkeringsplats är ett minne blott. Vägtullar, bilköer, höga bensinkostnader kommer du inte behöva bry dig om. <br />
-                        Med en moped eller scooter så kommer du alltid ha en låg totalkostnad
+                        Med en scooter så kommer du alltid ha en låg totalkostnad
                         </p>
 					</div>
 					<div class="">
@@ -20,7 +20,7 @@
 						</p>
 						<p>
 							Tel: 0123456789<br />
-							E-post: <a href="">info@grupp1.com</a>
+							E-post: <a href="">info@scooterteam.com</a>
 						</p>
 
                         <p> Vardagar: 10:00-18:00<br />
