@@ -1,4 +1,4 @@
-<?php echo "hej";
+<?php
 
 // Woocommerce
 function mytheme_add_woocommerce_support() {

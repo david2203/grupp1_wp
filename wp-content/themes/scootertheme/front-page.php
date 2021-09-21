@@ -1,3 +1,11 @@
+<?php
+/* Template Name: Testing */
+?>
+
+<?php
+echo do_shortcode('[smartslider3 slider="1"]');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
