@@ -25,20 +25,9 @@
         <img class="img-logo" src="Scooter Haven.png" alt="Scooterbild">
         <a href="#home" id="navbar__logo">Scooter Haven</a>
         <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#home" class="navbar__links" id="home-page">Hem</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page"> Produkter</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#about" class="navbar__links" id="about-page"> Om oss</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >FAQ</a
-            >
-          </li>
+        <?php wp_nav_menu( array(
+ 'theme_location' => 'Huvudmeny', 'menu_class' => "menu"
+) ); ?>
         </ul>
       </div>
     </nav>
