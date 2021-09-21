@@ -8,65 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-8 col-sm-6">
-                    <img src="Scooter Haven.png" alt="">
-                </div>
-                <div class="col-sm-6 hidden-xs">
-                    <form id="searchform" class="searchform">
-                        <div>
-                            <label class="screen-reader-text">Sök efter:</label>
-                            <input type="text" />
-                            <input type="submit" value="Sök" />
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xs-4 text-right visible-xs">
-                    <div class="mobile-menu-wrap">
-                        <i class="fa fa-search"></i>
-                        <i class="fa fa-bars menu-icon"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="mobile-search">
-        <form id="searchform" class="searchform">
-            <div>
-                <label class="screen-reader-text">Sök efter:</label>
-                <input type="text" />
-                <input type="submit" value="Sök" />
-            </div>
-        </form>
-    </div>
-
-    <nav id="nav">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <ul class="menu">
-                        <li class="current-menu-item">
-                            <a href="#">Hem</a>
-                        </li>
-                        <li>
-                            <a href="">Produkter</a>
-                        </li>
-                        <li>
-                            <a href="#">Om oss</a>
-                        </li>
-                        <li>
-                            <a href="#">Fisk</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <img class="img-logo" src="Scooter Haven.png" alt="Scooterbild">
+        <a href="#home" id="navbar__logo">Scooter Haven</a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Hem</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page"> Produkter</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page"> Om oss</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >FAQ</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
