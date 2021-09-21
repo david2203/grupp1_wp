@@ -22,7 +22,7 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <img class="img-logo" src="Scooter Haven.png" alt="Scooterbild">
+        <img class="img-logo" src="http://localhost/grupp1/wordpress/wp-content/uploads/2021/09/Scooter-Haven.png" alt="Scooterbild">
         <a href="#home" id="navbar__logo">Scooter Haven</a>
         <ul class="navbar__menu">
         <?php wp_nav_menu( array(
