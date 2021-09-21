@@ -4,7 +4,7 @@
 	<hr />
 			<div class="container">
 					<div class="about-us">
-						<h4>Kort om oss</h4>
+						<h4>Om oss</h4>
 						<p>
                         Scooter Haven säljer scootrar som är effektiva, miljövänliga och billiga transportmedel. <br />
                         Letandet efter parkeringsplats är ett minne blott. Vägtullar, bilköer, höga bensinkostnader kommer du inte behöva bry dig om. <br />
@@ -12,7 +12,7 @@
                         </p>
 					</div>
 					<div class="contact">
-						<h4>Kontaktuppgifter</h4>
+						<h4>Kontakt</h4>
 						<p>
 							Scooter Haven<br />
 							Gatgatan 1<br />
@@ -29,20 +29,15 @@
                         </p>
 					</div>
 					<div class="social-media">
-						<h4>Social media</h4>
-							<li>
-								<i class="fa fa-facebook"></i> <a href="">Facebook</a>
-							</li>
-							<li>
-								<i class="fa fa-twitter"></i> <a href="">Twitter</a>
-							</li>
-							<li>
-								<i class="fa fa-instagram"></i> <a href="">Instagram</a>
-							</li>
-							<li>
-								<i class="fa fa-linkedin"></i> <a href="">LinkedIn</a>
-							</li>
+						<h4>Sociala medier</h4>
+
+						<div class="betalmetoder">
+						<h4>Betalmetoder</h4>
+						<p>Klarna</p>
+							
+						</div>
 					</div>
+					
 				</div>
 				<hr />
 

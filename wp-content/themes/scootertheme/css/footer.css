@@ -9,16 +9,24 @@
 
     }
 
+
     footer a {
-        text-decoration: none;
-        list-style: none;
         color: grey;
+        text-decoration: none;
+    }
+
+    footer ul, footer li {
+        text-decoration: none;
+        list-style-type: none;
+        list-style: none;
+
     }
     
     footer h4 {
         font-size: 1.2rem;
         padding-bottom: 1.5rem;
         color: darkslategray;
+        text-transform: capitalize;
     }
 
     footer p {
@@ -30,7 +38,7 @@
         width: 100%;
         display: flex;
         flex-flow: wrap;
-        padding: 1.5rem;
+        padding: 1.5rem 0.5rem 1.5rem;
 
         /* flex-flow: wrap column; media-queries */ 
 
@@ -38,23 +46,22 @@
 
     footer .about-us {
         /* border:solid 3px grey; */
-        width: 30%;
+        width: 33%;
         padding: 0.7rem;
     }
 
     footer .contact {
         /* border:solid 3px lawngreen; */
-        width: 30%;
+        width: 33%;
         padding: 0.7rem;
     }
 
     footer .social-media {
         /* border:solid 3px pink; */
-        width: 30%;
+        width: 33%;
         text-decoration: none;
         list-style: none;
         padding: 0.7rem;
-
     }
 
     footer .copyright {
