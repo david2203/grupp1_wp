@@ -2,7 +2,6 @@
 
 <footer id="footer">
 			<div class="container">
-				<div class="">
 					<div class="about-us">
 						<h4>Kort om oss</h4>
 						<p>
@@ -50,7 +49,6 @@
 					<div class="">
 						<p>Copyright &copy; Grupp 1, Medieinstitutet, inriktning E-handel, 2021</p>
 					</div>
-				</div>
 			</div>
 		</footer>
 

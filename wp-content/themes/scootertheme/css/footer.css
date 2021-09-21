@@ -3,8 +3,8 @@
     
 
     footer {
-        border:solid 3px red;
-        width: 100%;
+        border:solid 3px yellow ;
+        width: auto;
     }
 
     footer h4 {
@@ -13,22 +13,28 @@
 
     footer .container {
         border:solid 3px blue;
-        width: 50px;
+        width: auto;
+    }
+
+    footer .contact {
+        border:solid 3px lawngreen;
+        width: 250px;
     }
 
     footer .about-us {
         border:solid 3px blueviolet;
-        width: 50px;
+        width: 250px;
     }
 
     footer .social-media {
         border:solid 3px pink;
-        width: 50px;
+        width: 250px;
     }
 
     footer .copyright {
         border:solid 3px green;
-        width: 50px;
+        width: auto;
+        text-align: center;
     }
 
 
