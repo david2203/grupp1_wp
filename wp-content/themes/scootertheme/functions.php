@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php
+=======
+<?php 
+>>>>>>> 8c469357aeed2a4e9a2fe2ba8e7cfc1b475418f3
 
 // Woocommerce
 function mytheme_add_woocommerce_support() {
@@ -8,15 +12,16 @@ function mytheme_add_woocommerce_support() {
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 
 //includes registered and enqueued styles from enqueue.phpß
-include(get_theme_file_path('/includes/front/enqueue.php'));
+
  
 //enqueing some styles
 function wpdocs_theme_name_scripts() {
- wp_enqueue_style('custom', get_template_directory_uri() . '/css/bootstrap.css', array(), '0.1.0', 'all');
- wp_enqueue_style('fonts', get_template_directory_uri() . '/css/font-awesome.css', array(), '0.1.0', 'all');
- wp_enqueue_style('custom-style', get_template_directory_uri() . '/css/style.css', array(), '0.1.0', 'all');
- wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', array(), '1.0.0', true );
- wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true );
+ wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/css/bootstrap.css', array(), '0.1.0', 'all');
+ wp_enqueue_style('fonts', get_stylesheet_directory_uri() . '/css/font-awesome.css', array(), '0.1.0', 'all');
+ wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/css/style.css', array(), '0.1.0', 'all');
+ wp_enqueue_style('footer', get_stylesheet_directory_uri() . '/css/footer.css', array(), '0.1.0', 'all');
+ wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/js/jquery.js', array(), '1.0.0', true );
+ wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0.0', true );
 }
  
 function get_site_features() {
@@ -30,40 +35,27 @@ add_theme_support('post-thumbnails');
 
  //actions for enqueing
 add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
- 
-add_action('wp_enqueue_scripts', 'inl_enqueue');
+
  
 // funktion för att få menyer dropdown på adminpanelen i WP
  
-if ( ! function_exists( 'mytheme_register_nav_menu' ) ) {
+add_theme_support('menus');
+register_nav_menus(
  
- function mytheme_register_nav_menu(){
- register_nav_menus( array(
- 'main' => __( 'Primary Menu', 'text_domain' ),
- 'secondary' => __( 'Footer Menu', 'text_domain' ),
- ) );
- }
- add_action( 'after_setup_theme', 'mytheme_register_nav_menu', 0 );
-}
- 
-//registering menues to be used
-function register_my_menus(){
- register_nav_menus(
  array(
- 'main-menu' => __('Main Menu', 'text_domain'),
- 'mobile-menu' => __('Mobile Menu', 'text_domain'),
- 'side-menu' => __('Side Menu', 'text_domain'),
- 'sidebar' => __('Sidebar', 'text_domain'),
- 'sidebar2' => __('Sidebar2', 'text_domain'),
- 'sidebar3' => __('Sidebar3', 'text_domain'),
- 'labb1' => __('Labb1', 'text_domain'),
-
-
+ 
+ 'main-menu' => 'Om oss menu',
+ 'new-menu' => 'Support menu'
  )
 );
-}
-add_action ('init', 'register_my_menus');
-
+ 
+/* Registrera menyer */
+add_theme_support('menus');
+register_nav_menus(
+ array(
+ 'header-menu' => 'Header Menu',
+ )
+);
 
 // Our custom post type function
 function create_posttype() {
