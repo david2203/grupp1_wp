@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?php
-=======
 <?php 
->>>>>>> 8c469357aeed2a4e9a2fe2ba8e7cfc1b475418f3
 
 // Woocommerce
 function mytheme_add_woocommerce_support() {
