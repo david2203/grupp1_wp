@@ -1,4 +1,4 @@
-<?php echo "hej";
+<?php 
 
 // Woocommerce
 function mytheme_add_woocommerce_support() {
@@ -35,35 +35,23 @@ add_action('wp_enqueue_scripts', 'inl_enqueue');
  
 // funktion för att få menyer dropdown på adminpanelen i WP
  
-if ( ! function_exists( 'mytheme_register_nav_menu' ) ) {
+add_theme_support('menus');
+register_nav_menus(
  
- function mytheme_register_nav_menu(){
- register_nav_menus( array(
- 'main' => __( 'Primary Menu', 'text_domain' ),
- 'secondary' => __( 'Footer Menu', 'text_domain' ),
- ) );
- }
- add_action( 'after_setup_theme', 'mytheme_register_nav_menu', 0 );
-}
- 
-//registering menues to be used
-function register_my_menus(){
- register_nav_menus(
  array(
- 'main-menu' => __('Main Menu', 'text_domain'),
- 'mobile-menu' => __('Mobile Menu', 'text_domain'),
- 'side-menu' => __('Side Menu', 'text_domain'),
- 'sidebar' => __('Sidebar', 'text_domain'),
- 'sidebar2' => __('Sidebar2', 'text_domain'),
- 'sidebar3' => __('Sidebar3', 'text_domain'),
- 'labb1' => __('Labb1', 'text_domain'),
-
-
+ 
+ 'main-menu' => 'Om oss menu',
+ 'new-menu' => 'Support menu'
  )
 );
-}
-add_action ('init', 'register_my_menus');
-
+ 
+/* Registrera menyer */
+add_theme_support('menus');
+register_nav_menus(
+ array(
+ 'header-menu' => 'Header Menu',
+ )
+);
 
 // Our custom post type function
 function create_posttype() {
