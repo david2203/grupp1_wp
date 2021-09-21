@@ -2,14 +2,19 @@
     /* FOOTER */
 
     footer {
-        border:solid 3px yellow ;
+        /* border:solid 3px yellow ; */
         width: auto;
         padding: 2rem;
         color: grey;
-        text-decoration: none;
-        list-style: none;
+
     }
 
+    footer a {
+        text-decoration: none;
+        list-style: none;
+        color: grey;
+    }
+    
     footer h4 {
         font-size: 1.2rem;
         padding-bottom: 1.5rem;
@@ -33,7 +38,7 @@
 
     footer .about-us {
         /* border:solid 3px grey; */
-        width: 35%;
+        width: 30%;
         padding: 0.7rem;
     }
 
