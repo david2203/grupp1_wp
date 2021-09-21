@@ -1,0 +1,37 @@
+    
+    /* FOOTER */
+    
+
+    footer {
+        border:solid 3px red;
+        width: 100%;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
+
+    footer .container {
+        border:solid 3px blue;
+        width: 50px;
+    }
+
+    footer .about-us {
+        border:solid 3px blueviolet;
+        width: 50px;
+    }
+
+    footer .social-media {
+        border:solid 3px pink;
+        width: 50px;
+    }
+
+    footer .copyright {
+        border:solid 3px green;
+        width: 50px;
+    }
+
+
+
+
+
