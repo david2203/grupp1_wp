@@ -27,10 +27,9 @@
 							E-post: <a href="">info@scooterhaven.com</a>
 						</p>
 						<br />
-                        <p> Vardagar: 10:00-18:00<br />
-                            Lördagar: 10:00-15:00<br />
-                            Söndagar: Stängt
-                        </p>
+                        <p> Vardagar: 10:00-18:00</p>
+                        <p> Lördagar: 10:00-15:00</p>
+						<p> Söndagar: Stängt</p>
 					</div>
 					<div class="social-media">
 						<h4>Sociala medier</h4>
