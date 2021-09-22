@@ -7,9 +7,11 @@
 						<p>Hem</p>
 						<p>Shop</p>
 						<p>Blog</p>
+						<p>Min sida</p>
 						<p>Kontakt</p>
 						<p>Om Oss</p>
 						<p>Policy och villkor</p>
+						<p>Varukorg</p>
 							
 					</div>
 					
