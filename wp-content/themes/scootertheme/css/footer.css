@@ -70,7 +70,8 @@
 
     footer .about-us, 
     footer .contact, 
-    footer .social-media {
+    footer .social-media,
+    footer .fast-links {
         width: 100%;
         padding: 0.5rem;
     }
