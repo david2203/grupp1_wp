@@ -26,9 +26,10 @@
         font-size: 0.9rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        color: darkslategray;
+        color: rgb(116, 116, 116);
         text-transform: capitalize;
         font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
     }
 
     footer p {

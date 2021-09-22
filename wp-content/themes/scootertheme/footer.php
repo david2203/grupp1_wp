@@ -2,6 +2,16 @@
 
 <footer id="footer">
 			<div class="container">
+					<div class="fast-links">
+						<h4>Snabba länkar</h4>
+						<p>Hem</p>
+						<p>Shop</p>
+						<p>Blog</p>
+						<p>Kontakt</p>
+						<p>Om Oss</p>
+						<p>Policy och villkor</p>
+							
+					</div>
 					
 					<div class="contact">
 						<h4>Kontakt</h4>
@@ -36,16 +46,7 @@
 							
 						</div>
 					</div>
-					<div class="fast-links">
-						<h4>Snabba länkar</h4>
-						<p>Hem</p>
-						<p>Shop</p>
-						<p>Blog</p>
-						<p>Kontakt</p>
-						<p>Om Oss</p>
-						<p>Policy och villkor</p>
-							
-					</div>
+
 
 					<div class="about-us">
 						<h4>Om oss</h4>
