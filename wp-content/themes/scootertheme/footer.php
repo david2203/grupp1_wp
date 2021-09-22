@@ -2,14 +2,7 @@
 
 <footer id="footer">
 			<div class="container">
-					<div class="about-us">
-						<h4>Om oss</h4>
-						<p>
-                        Scooter Haven säljer scootrar som är effektiva, miljövänliga och billiga transportmedel. <br />
-                        Letandet efter parkeringsplats är ett minne blott. Vägtullar, bilköer, höga bensinkostnader kommer du inte behöva bry dig om. <br />
-                        Med en scooter så kommer du alltid ha en låg totalkostnad
-                        </p>
-					</div>
+					
 					<div class="contact">
 						<h4>Kontakt</h4>
 						<p>
@@ -52,6 +45,15 @@
 						<p>Om Oss</p>
 						<p>Policy och villkor</p>
 							
+					</div>
+
+					<div class="about-us">
+						<h4>Om oss</h4>
+						<p>
+                        Scooter Haven säljer scootrar som är effektiva, miljövänliga och billiga transportmedel. <br />
+                        Letandet efter parkeringsplats är ett minne blott. Vägtullar, bilköer, höga bensinkostnader kommer du inte behöva bry dig om. <br />
+                        Med en scooter så kommer du alltid ha en låg totalkostnad
+                        </p>
 					</div>
 					
 				</div>
