@@ -29,12 +29,29 @@
 					</div>
 					<div class="social-media">
 						<h4>Sociala medier</h4>
+						<p>Facebook</p>
+						<p>Instagram</p>
+						<p>Youtube</p>
+						<p>Tiktok</p>
+
 
 						<div class="betalmetoder">
-						<h4>Betalmetoder</h4>
-						<p>Klarna</p>
+							<h4>Betalmetoder</h4>
+							<p>Klarna</p>
+							<p>Swish</p>
+							<p>PayPal</p>
 							
 						</div>
+					</div>
+					<div class="fast-links">
+						<h4>Snabba länkar</h4>
+						<p>Hem</p>
+						<p>Shop</p>
+						<p>Blog</p>
+						<p>Kontakt</p>
+						<p>Om Oss</p>
+						<p>Policy och villkor</p>
+							
 					</div>
 					
 				</div>
