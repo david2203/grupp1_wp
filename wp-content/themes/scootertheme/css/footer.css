@@ -6,12 +6,13 @@
         width: auto;
         padding: 2rem;
         color: grey;
+        background-color: lightgrey;
+
     }
 
     footer a {
         color: grey;
         text-decoration: none;
-        background-color: lightgrey;
     }
 
     footer ul, footer li {
