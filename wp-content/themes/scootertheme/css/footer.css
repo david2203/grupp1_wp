@@ -33,7 +33,7 @@
     }
 
     footer .container {
-        border:solid 3px blue;
+        /* border:solid 3px blue; */
         width: 100%;
         display: flex;
         flex-flow: wrap;
@@ -42,7 +42,6 @@
 
     @media only screen and (max-width: 600px){
         footer .container {
-            border:solid 3px red;
             flex-flow: wrap column;
         }
     }
@@ -61,7 +60,7 @@
     }
 
     footer .social-media {
-        border:solid 3px pink;
+        /* border:solid 3px pink; */
         width: 33%;
         text-decoration: none;
         list-style: none;
