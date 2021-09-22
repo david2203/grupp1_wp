@@ -11,6 +11,7 @@
     footer a {
         color: grey;
         text-decoration: none;
+        background-color: lightgrey;
     }
 
     footer ul, footer li {
