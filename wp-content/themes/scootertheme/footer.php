@@ -1,7 +1,6 @@
 <?php wp_footer(); ?>
 
 <footer id="footer">
-	<hr />
 			<div class="container">
 					<div class="about-us">
 						<h4>Om oss</h4>
