@@ -83,26 +83,26 @@ function custom_post_type() {
  
     // Set UI labels for Custom Post Type
         $labels = array(
-            'name'                => _x( 'Stores', 'Post Type General Name', 'labb1-david' ),
-            'singular_name'       => _x( 'Store', 'Post Type Singular Name', 'labb1-david' ),
-            'menu_name'           => __( 'Stores', 'labb1-david' ),
-            'parent_item_colon'   => __( 'Parent Store', 'labb1-david' ),
-            'all_items'           => __( 'All Stores', 'labb1-david' ),
-            'view_item'           => __( 'View Store', 'labb1-david' ),
-            'add_new_item'        => __( 'Add New Store', 'labb1-david' ),
-            'add_new'             => __( 'Add New', 'labb1-david' ),
-            'edit_item'           => __( 'Edit Store', 'labb1-david' ),
-            'update_item'         => __( 'Update Store', 'labb1-david' ),
-            'search_items'        => __( 'Search Store', 'labb1-david' ),
-            'not_found'           => __( 'Not Found', 'labb1-david' ),
-            'not_found_in_trash'  => __( 'Not found in Trash', 'labb1-david' ),
+            'name'                => _x( 'Stores', 'Post Type General Name', 'grupp1_wp' ),
+            'singular_name'       => _x( 'Store', 'Post Type Singular Name', 'grupp1_wp' ),
+            'menu_name'           => __( 'Stores', 'grupp1_wp' ),
+            'parent_item_colon'   => __( 'Parent Store', 'grupp1_wp' ),
+            'all_items'           => __( 'All Stores', 'grupp1_wp' ),
+            'view_item'           => __( 'View Store', 'grupp1_wp' ),
+            'add_new_item'        => __( 'Add New Store', 'grupp1_wp' ),
+            'add_new'             => __( 'Add New', 'grupp1_wp' ),
+            'edit_item'           => __( 'Edit Store', 'grupp1_wp' ),
+            'update_item'         => __( 'Update Store', 'grupp1_wp' ),
+            'search_items'        => __( 'Search Store', 'grupp1_wp' ),
+            'not_found'           => __( 'Not Found', 'grupp1_wp' ),
+            'not_found_in_trash'  => __( 'Not found in Trash', 'grupp1_wp' ),
         );
          
     // Set other options for Custom Post Type
          
         $args = array(
-            'label'               => __( 'Stores', 'labb1-david' ),
-            'description'         => __( 'Store news and reviews', 'labb1-david' ),
+            'label'               => __( 'Stores', 'grupp1_wp' ),
+            'description'         => __( 'Store news and reviews', 'grupp1_wp' ),
             'labels'              => $labels,
             // Features this CPT supports in Post Editor
             'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
