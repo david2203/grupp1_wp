@@ -1,7 +1,8 @@
 
 <?php
 /* Template Name: woocomerce
- */ get_header(); ?>
+ */ 
+get_header(); ?>
 <divclass="content">
     <divclass="container">
         <divclass="row">
