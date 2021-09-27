@@ -99,10 +99,8 @@ h4 {
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    border-radius: 10px;
+    background: #3a3cb4;
     color: #fff;
     transition: all 0.3s ease;
   }
