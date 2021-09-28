@@ -45,8 +45,8 @@ h4 {
   
   .navlogo-text {
     border: 3px solid pink;
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 20%;
 
   }
 
