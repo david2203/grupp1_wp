@@ -20,7 +20,6 @@ h4 {
 }
   
   .navbar {
-    border: 3px solid pink;
     background: white;
     height: 100%;
     display: flex;
@@ -30,14 +29,15 @@ h4 {
     position: sticky;
     top: 0;
     z-index: 999;
-    border: solid black 2px;
+    border-bottom: solid black 2px;
   }
   
   .navbar__container {
     border: 3px solid red;
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    align-items: center;
+    height: 100px;
     z-index: 1;
     width: 100%;
     max-width: 3000px;
@@ -46,7 +46,7 @@ h4 {
   .img-logo {
     border: 3px solid yellow;
 
-      height: 50px;
+      height: 100%;
       padding: 10px;
   }
 
