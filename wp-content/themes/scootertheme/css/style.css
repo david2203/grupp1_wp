@@ -54,8 +54,8 @@ h4 {
   }
 
   .img-logo {
-      /* border: 3px solid yellow; */
-      height: 70%;
+      border: 3px solid yellow;
+      height: 50%;
       margin: 10px;
   }
 
