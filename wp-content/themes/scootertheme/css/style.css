@@ -20,6 +20,7 @@ h4 {
 }
   
   .navbar {
+    border: 3px solid red;
     background: white;
     height: 100%;
     display: flex;
@@ -33,6 +34,8 @@ h4 {
   }
   
   .navbar__container {
+    border: 3px solid red;
+
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -48,6 +51,8 @@ h4 {
   }
 
   #navbar__logo {
+    border: 3px solid blue;
+
     background-color: black;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -62,6 +67,8 @@ h4 {
   }
   
   .navbar__menu {
+    border: 3px solid green;
+
     display: flex;
     align-items: center;
     list-style: none;
