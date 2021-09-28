@@ -24,7 +24,7 @@
       <div class="navbar__container">
         <div class="navlogo-text">
 
-        </div><img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
+        <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
         <a href="#home" id="navbar__logo">Scooter Haven</a>
 
         </div>
