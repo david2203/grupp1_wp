@@ -47,6 +47,9 @@ h4 {
     border: 3px solid pink;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
   }
 
@@ -59,6 +62,7 @@ h4 {
 
   #navbar__logo {
     border: 3px solid blue;
+    background-color: black;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
