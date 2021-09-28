@@ -54,7 +54,7 @@ h4 {
   }
 
   .img-logo {
-      height: 70%;
+      height: 50%;
       margin: 10px;
   }
 
@@ -129,8 +129,3 @@ h4 {
   #primary {
     width:100%;
   }
-
-  .add_to_cart_button {
-    border:blueviolet 3px solid;
-    width: 50%;
-}
