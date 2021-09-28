@@ -35,7 +35,7 @@ h4 {
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    height: 200px;
     z-index: 1;
     width: 100%;
     max-width: 3000px;
@@ -43,7 +43,7 @@ h4 {
   
   .img-logo {
 
-      height: 50%;
+      height: 50px;
       padding: 10px;
   }
 
