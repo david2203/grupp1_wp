@@ -18,7 +18,6 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class = "woocommerce">
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
@@ -32,3 +31,5 @@
         <?php wp_nav_menu( array('theme_location' => 'Huvudmeny', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
       </div>
     </nav>
+    <body class = "woocommerce">
+</body>
