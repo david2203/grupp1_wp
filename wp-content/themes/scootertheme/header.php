@@ -22,7 +22,11 @@
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
+<<<<<<< HEAD
         <img class="img-logo" src="http://localhost/wordpress-grupp1/wp-content/uploads/2021/09/MicrosoftTeams-image.png" alt="Scooterbild">
+=======
+        <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/" alt="Scooterbild">
+>>>>>>> 7291f2076880919f0de77be984259829f1509c82
         <a href="#home" id="navbar__logo">Scooter Haven</a>
         <ul class="navbar__menu">
         <?php wp_nav_menu( array(
