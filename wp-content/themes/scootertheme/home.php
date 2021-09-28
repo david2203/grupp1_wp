@@ -58,43 +58,7 @@
 						?>
 					</nav>
 				</div>
-				<aside id="secondary" class="col-xs-12 col-md-3">
-					<div id="sidebar">
-						<ul>
-							<li>
-                                
-							<?php /* displays a search form, which on submit leads to search.php */ get_search_form(); ?>
-							</li>
-						</ul>
-						<ul role="navigation">
-							<li class="pagenav">
-								<h2>Sidor</h2>
-								<ul>
-
-								<?php /* Displays the chosen menu */ wp_nav_menu( array(
- 'theme_location' => 'sidebar2', 'menu_class' => "menu"
-) ); ?>
-								</ul>
-							</li>
-							<li>
-								<h2>Arkiv</h2>
-								<ul>
-									<li>
-									<a href="<?php echo get_home_url();?>/archive.php/blogg?m=201610">Oktober 2016</a>
-									</li>
-								</ul>
-							</li>
-							<li class="categories">
-								<h2>Kategorier</h2>
-								<ul>
-								<?php /* Displays the chosen menu */  wp_nav_menu( array(
- 'theme_location' => 'sidebar', 'menu_class' => "menu"
-) ); ?>
-								</ul>
-							</li>
-						</ul>
-					</div>
-				</aside>
+				
 			</div>
 		</div>
 	</section>

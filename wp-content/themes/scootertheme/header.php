@@ -23,10 +23,14 @@
     <nav class="navbar">
       <div class="navbar__container">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <img class="img-logo" src="http://localhost/wordpress-grupp1/wp-content/uploads/2021/09/MicrosoftTeams-image.png" alt="Scooterbild">
 =======
         <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/" alt="Scooterbild">
 >>>>>>> 7291f2076880919f0de77be984259829f1509c82
+=======
+        <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter-Haven.png" alt="Scooterbild">
+>>>>>>> 0a58eba2cdc8a4941f055848af83bdd9fa890126
         <a href="#home" id="navbar__logo">Scooter Haven</a>
         <ul class="navbar__menu">
         <?php wp_nav_menu( array(

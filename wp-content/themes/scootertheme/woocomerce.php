@@ -1,11 +1,12 @@
 
 <?php
 /* Template Name: woocomerce
- */ get_header(); ?>
-<divclass="content">
-    <divclass="container">
-        <divclass="row">
-            <divclass="col-12">
+ */ 
+get_header(); ?>
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
                 <?php woocommerce_content(); ?>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
