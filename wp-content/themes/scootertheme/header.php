@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class = "woocommerce">
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
