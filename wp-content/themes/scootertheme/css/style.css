@@ -38,7 +38,7 @@ h4 {
     height: 200px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 3000px;
   }
   
   .img-logo {
@@ -66,11 +66,11 @@ h4 {
     list-style: none;
   }
   
-  .navbar__item {
+  .page_item {
     height: 80px;
   }
   
-  .navbar__links {
+  .page_item > a{
     color: black;
     display: flex;
     align-items: center;
