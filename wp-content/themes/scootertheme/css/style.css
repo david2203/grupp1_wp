@@ -20,7 +20,7 @@ h4 {
 }
   
   .navbar {
-    border: 3px solid red;
+    border: 3px solid pink;
     background: white;
     height: 100%;
     display: flex;
@@ -35,7 +35,6 @@ h4 {
   
   .navbar__container {
     border: 3px solid red;
-
     display: flex;
     justify-content: space-between;
     height: 100%;
