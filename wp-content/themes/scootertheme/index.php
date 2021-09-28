@@ -1,1 +1,1 @@
-<p>Ops, det går inte att kopplas!</p>
+<p>Du har kommit till index.php eftersom andra sidan inte har hittats!</p>
