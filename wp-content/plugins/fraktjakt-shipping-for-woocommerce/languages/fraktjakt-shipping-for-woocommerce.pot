@@ -1,0 +1,517 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Fraktjakt Shipping Method for WooCommerce\n"
+"POT-Creation-Date: 2021-08-13 08:23+0200\n"
+"PO-Revision-Date: 2015-10-29 09:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: fraktjakt-woocommerce-shipping.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: fraktjakt-woocommerce-shipping.php:38 fraktjakt-woocommerce-shipping.php:87
+#: fraktjakt-woocommerce-shipping.php:176
+#: fraktjakt-woocommerce-shipping.php:1152
+msgid "Fraktjakt"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:78
+msgid "Enable/Disable"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:80
+msgid "Enable this shipping method"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:84 fraktjakt-woocommerce-shipping.php:173
+msgid "Method Title"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:86
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:136
+msgid "Fraktjakt [WARNING]"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:136
+msgid " products are missing weight or volume: "
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:166
+msgid "Enable/disable "
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:168
+msgid "Enable the Fraktjakt Shipping Method"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:175
+msgid "Enter the display title of the shipping method."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:181
+msgid "Auto process"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:186
+msgid "No"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:187
+msgid "Processing"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:188
+msgid "Completed"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:190
+msgid ""
+"Choose which order status to automatically process and create shipments for."
+"<br>If Manual is selected, then no orders will be processed automatically "
+"and you can select which orders to send over to Fraktjakt manually."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:196
+msgid "Reference prefix"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:197
+msgid "Specify a text to prefix the order reference below."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:202
+msgid "Order reference"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:207
+msgid "Order number"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:208
+msgid "Customer note"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:210
+msgid "Select how to reference shipments to your WooCommerce orders."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:215
+msgid "Control mode"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:220
+msgid "Customer controlled shipping"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:221
+msgid "Merchant controlled shipping"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:223
+msgid ""
+"Choose whether it's the customer or the merchant who makes the shipping "
+"decision.<br>The settings under Shipping alternatives are only applicable to "
+"\"Customer controlled shipping\""
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:228
+msgid "Operation Mode"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:231
+msgid ""
+"Select which server environment to use. Requires a registered account on the "
+"chosen server."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:234
+msgid "Production"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:235
+msgid "Test"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:241
+msgid "Authentication"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:243
+msgid ""
+"Enter your Consignor ID and key from your Fraktjakt integration to connect "
+"this extension to your Fraktjakt account."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:244
+msgid "Direct link to Fraktjakt PROD API webshop settings"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:249
+#: fraktjakt-woocommerce-shipping.php:272
+#: fraktjakt-woocommerce-shipping.php:665
+msgid "Consignor ID"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:254
+#: fraktjakt-woocommerce-shipping.php:277
+msgid "Consignor Key"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:258
+#: fraktjakt-woocommerce-shipping.php:281
+msgid "(Integrator code)"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:260
+msgid ""
+"Integrator code for the production server (if supplied by your integrator)."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:265
+msgid "Test authentication"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:267
+msgid ""
+"Enter your Consignor ID and key from your test server integration to connect "
+"this extension to your Fraktjakt account."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:268
+msgid "Direct link to Fraktjakt TEST API webshop settings"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:283
+msgid "Integrator code for the test server (if supplied by your integrator)."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:288
+msgid "Shipping alternatives in customer controlled shipping"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:290
+msgid ""
+"Choose which information to display about each shipping alternative in the "
+"shipping calculator, cart and checkout."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:294
+msgid "Shipping company"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:295
+msgid "Display shipping company names"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:301
+msgid "Shipping agent"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:302
+msgid "Display Agent for package retrieval by the customer"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:307
+msgid "Home delivery title"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:310
+msgid ""
+"Only shipping products which include Door-to-Door delivery will display this "
+"text.  <br>Displayed in the shipping alternatives customers see in the cart "
+"and in checkout."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:311
+msgid "Door-to-Door delivery"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:314
+msgid "Estimated delivery time"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:316
+msgid "Display Fraktjakts estimated delivery time info"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:322
+msgid "Currency conversion"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:327
+msgid "Convert shipping costs to your selected currency"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:328
+msgid "Always present shipping costs in SEK"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:329
+msgid "Always present shipping costs in EUR"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:331
+msgid ""
+"Choose if you want Fraktjakt to automatically convert the shipping costs to "
+"your chosen currency in WooCommerce or if prices should always be shown in a "
+"fixed currency value. What currency symbol is used depends on your "
+"WooCommerce setting."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:335
+msgid "Tracking link in email"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:337
+msgid "Add tracking link to your customer emails."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:339
+msgid ""
+"The appearance of the button can be styled with the CSS class "
+"tracking_button."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:345
+msgid "Debugging and fallback options"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:347
+msgid ""
+"Set up fallback shipping options and email debug information if any error "
+"occurs."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:352
+msgid "Fallback service"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:354
+msgid ""
+"This text is shown together with a Fallback price when the webshop does not "
+"receive a prompt response from Fraktjakt, <br>for instance, when there is a "
+"communications problem over the internet."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:355
+msgid "Standard shipping"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:358
+msgid "Fallback price"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:361
+msgid "The price that is shown together with the fallback text (above)."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:366
+msgid "Admin email address"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:368
+msgid ""
+"Error messages from the Fraktjakt Shipping Method will be sent to this email "
+"address."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:371
+msgid "Debug mode"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:373
+msgid ""
+"Enable the Fraktjakt debug mode to track down products missing weight or "
+"volume.<br />Initiates a search when you press the save button below. "
+"Changing settings requires you to first refresh the page.<br /><b>Important!"
+"</b> Please deactive before launching, since this action may significantly "
+"slow down your server."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:415
+#: fraktjakt-woocommerce-shipping.php:517
+msgid "Fraktjakt Shipping Method [ERROR]"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:558
+msgid "Agent"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:579
+msgid "Arrival Time"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:606
+msgid "This is an automated error message from your WooCommerce integration."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:607
+msgid "Webshop"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:608
+msgid "Method"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:609
+msgid "Function"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:612
+msgid "Reason"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:612
+msgid "Missing response.  Using the FALLBACK method."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:616
+msgid "Status"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:619
+msgid "Warning"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:623
+#: fraktjakt-woocommerce-shipping.php:625
+msgid "Error"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:629
+msgid "Returned shipping options"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:634
+msgid "Cart items"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:656
+msgid "Destination"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:656
+msgid "Postal code"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:657
+msgid "Country"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:659
+msgid "Fallback"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:659
+msgid "Title"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:660
+msgid "Price"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:662
+msgid "Time"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:666
+msgid "Server"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:678
+#: fraktjakt-woocommerce-shipping.php:683
+msgid "Response"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:680
+msgid "Array"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:683
+msgid "Missing response"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:687
+msgid "Error message from Fraktjakt WooCommerce plugin."
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:697
+msgid "Debug info"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:711
+msgid "Shipping calculation error"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1192
+#: fraktjakt-woocommerce-shipping.php:1207
+#: fraktjakt-woocommerce-shipping.php:1301
+#: fraktjakt-woocommerce-shipping.php:1304
+msgid "Manage shipment"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1192
+msgid "Manage the order in Fraktjakt"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1207
+msgid "Manage the shipment in Fraktjakt"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1222
+#: fraktjakt-woocommerce-shipping.php:1313
+msgid "Trace shipment"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1222
+msgid "Trace the shipment"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1235
+msgid "Order connection missing"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1325
+msgid "Create order connection to Fraktjakt"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1615
+msgid "Follow the shipment"
+msgstr ""
+
+#: fraktjakt-woocommerce-shipping.php:1616
+msgid "Track your package"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Fraktjakt Shipping Method for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.fraktjakt.se"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Fraktjakt shipping method plugin for WooCommerce. Integrates several "
+"shipping services through Fraktjakt."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Fraktjakt AB (Sweden)"
+msgstr ""
