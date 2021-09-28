@@ -109,3 +109,11 @@ h4 {
     color: #9518fc;
     transition: all 0.3s ease;
   }
+
+  #sidebar {
+    display:none;
+  }
+
+  #primary {
+    width:100%;
+  }
