@@ -50,7 +50,7 @@ register_nav_menus(
 add_theme_support('menus');
 register_nav_menus(
  array(
- 'Header-menu' => 'Header Menu',
+ 'header-menu' => 'Header-menu',
  )
 );
 
