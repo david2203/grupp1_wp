@@ -11,19 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"/>
+    
   </head>
-  <body>
+  <body class = "woocommerce">
+
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter-Haven.png" alt="Scooterbild">
+        <div class="navlogo-text">
+        <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
         <a href="#home" id="navbar__logo">Scooter Haven</a>
+        </div>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
         <?php wp_nav_menu( array('theme_location' => 'Huvudmeny', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
       </div>
     </nav>
+</body>
