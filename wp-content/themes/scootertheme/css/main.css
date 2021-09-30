@@ -4,5 +4,6 @@
 
 
 .woocommerce ul.products li.product .button {
-    background-color: red;
+    background-color: rgb(105, 196, 231);
+    border-radius: 30px;
 }
