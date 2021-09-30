@@ -21,7 +21,7 @@
       <div class="navbar__container">
         <div class="navlogo-text">
         <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
-        <?php wp_nav_menu( array('theme_location' => 'title-menu', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
+        <?php wp_nav_menu( array('theme_location' => 'title-menu', 'menu_class' => "title__menu"));?>
 
         </div>
         <div class="navbar__toggle" id="mobile-menu">
