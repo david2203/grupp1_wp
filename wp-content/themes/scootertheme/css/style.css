@@ -67,11 +67,11 @@ h4 {
     list-style: none;
   }
   
-  .page_item {
+  .menu-item {
     height: 80px;
   }
   
-  .page_item > a{
+  .menu-item > a{
     color: black;
     display: flex;
     align-items: center;
