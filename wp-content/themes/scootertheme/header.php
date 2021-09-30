@@ -29,6 +29,7 @@
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
         </div>
+        <?php wp_nav_menu( array('theme_location' => 'header-menu', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
       </div>
     </nav>
 </body>
