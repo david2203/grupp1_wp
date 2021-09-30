@@ -38,11 +38,9 @@ h4 {
   }
   
   .navlogo-text {
-    /* border: 3px solid pink; */
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 
@@ -59,6 +57,7 @@ h4 {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    margin-left: 30px;
   }
   
   .navbar__menu {
@@ -68,11 +67,11 @@ h4 {
     list-style: none;
   }
   
-  .page_item {
+  .menu-item {
     height: 80px;
   }
   
-  .page_item > a{
+  .menu-item > a{ 
     color: black;
     display: flex;
     align-items: center;

@@ -21,7 +21,9 @@
       <div class="navbar__container">
         <div class="navlogo-text">
         <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
-        <a href="#home" id="navbar__logo">Scooter Haven</a>
+        <!-- <a href="#home" id="navbar__logo">Scooter Haven</a> -->
+        <?php wp_nav_menu( array('theme_location' => 'title-menu', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
+
         </div>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
