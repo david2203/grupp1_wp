@@ -71,7 +71,7 @@ h4 {
     height: 80px;
   }
   
-  .menu-item > a{
+  .menu-item > a{ 
     color: black;
     display: flex;
     align-items: center;
