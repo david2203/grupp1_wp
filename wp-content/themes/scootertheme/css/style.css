@@ -194,3 +194,14 @@ h4 {
     }
   }
     
+.main {
+  display: flex;
+}
+
+.primary {
+  width: 80%;
+}
+
+#secondary {
+  width: 20%;
+}

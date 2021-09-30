@@ -12,11 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"/>
-<<<<<<< HEAD
-
-=======
      -->
->>>>>>> b94ae6edd16d163bf738adbd1b35ebe9d12b5c21
   </head>
   <body class = "woocommerce">
 
@@ -25,7 +21,6 @@
       <div class="navbar__container">
         <div class="navlogo-text">
         <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
-        <!-- <a href="#home" id="navbar__logo">Scooter Haven</a> -->
         <?php wp_nav_menu( array('theme_location' => 'title-menu', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
 
         </div>
@@ -36,4 +31,3 @@
         <?php wp_nav_menu( array('theme_location' => 'header-menu', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
       </div>
     </nav>
-</body>
