@@ -1,4 +1,6 @@
 
+/* SHOP */
+
 .woocommerce .content-area{
     padding:4rem;
 }
@@ -21,5 +23,40 @@
 
 .woocommerce ul.products .onsale {
     background-color: darkred;
+    border-radius: 1px;
+}
+
+
+/* SINGLE PRODUCT PAGE */
+
+.woocommerce figure img {
+    border: lightgrey 1px solid;
+}
+
+.woocommerce span.onsale {
+    background-color: darkred;
+    border-radius: 1px;
+}
+
+/* .woocommerce .summary {
+    border: 1px solid rgb(221, 221, 221);
+
+} */
+
+.woocommerce  .summary .price {
+    padding: 50px 0px 60px;
+}
+
+.woocommerce .variations_form {
+    border: 1px solid rgb(221, 221, 221);
+    padding:20px;
+}
+
+.woocommerce .quantity {
+    color: grey;
+}
+
+.woocommerce  .quantity  button{
+    background-color: darkgrey;
     border-radius: 1px;
 }
