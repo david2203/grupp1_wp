@@ -12,10 +12,10 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
  
 //enqueing some styles
 function wpdocs_theme_name_scripts() {
- wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/css/bootstrap.css', array(), '0.1.0', 'all');
- wp_enqueue_style('fonts', get_stylesheet_directory_uri() . '/css/font-awesome.css', array(), '0.1.0', 'all');
+
+
  wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/css/style.css', array(), '0.1.0', 'all');
- wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/css/main.css', array(), '0.1.0', 'all');
+ wp_enqueue_style('main', get_stylesheet_directory_uri() . '/css/main.css', array(), '0.1.0', 'all');
  wp_enqueue_style('footer', get_stylesheet_directory_uri() . '/css/footer.css', array(), '0.1.0', 'all');
  wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/js/jquery.js', array(), '1.0.0', true );
  wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0.0', true );
