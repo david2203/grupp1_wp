@@ -1,9 +1,8 @@
-.blogg {
-    padding: 10px;
-}
+
 
 
 .woocommerce ul.products li.product .button {
     background-color: rgb(105, 196, 231);
     border-radius: 30px;
+    color: white;
 }
