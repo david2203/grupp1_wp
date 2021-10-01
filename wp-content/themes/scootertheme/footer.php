@@ -4,14 +4,7 @@
 			<div class="container">
 					<div class="fast-links">
 						<h4>Snabba länkar</h4>
-						<p>Hem</p>
-						<p>Shop</p>
-						<p>Blog</p>
-						<p>Min sida</p>
-						<p>Kontakt</p>
-						<p>Om Oss</p>
-						<p>Policy och villkor</p>
-						<p>Varukorg</p>
+						<?php wp_nav_menu( array('theme_location' => 'header-menu', 'container' => 'ul', 'menu_class' => "footer__menu"));?>
 							
 					</div>
 					
@@ -32,11 +25,24 @@
 						<p> Söndagar: Stängt</p>
 					</div>
 					<div class="social-media">
-						<h4>Sociala medier</h4>
-						<p>Facebook</p>
-						<p>Instagram</p>
-						<p>Youtube</p>
-						<p>Tiktok</p>
+						
+						<?php
+$args = array( 'post_type' => 'Footer', 'posts_per_page' => 10 );
+$the_query = new WP_Query( $args ); 
+?>
+
+<?php if ( $the_query->have_posts() ) : ?>
+<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+<h4><?php the_title(); ?></h4>
+<div class="entry-content">
+<?php the_content(); ?> 
+</div>
+
+<?php endwhile;
+wp_reset_postdata(); ?>
+<?php else:  ?>
+<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
 
 
 						<div class="betalmetoder">
