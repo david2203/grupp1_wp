@@ -10,9 +10,15 @@ get_header();
 echo do_shortcode('[smartslider3 slider="4"]');
 ?>
 
+
 <?php the_content(); ?>
 
-</div>
+
+<?php
+echo do_shortcode('[smartslider3 slider="5"]'); //storrea slider
+?>
+
+
 <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
     <div id="secondary" class="widget-area" role="complementary">
     <?php dynamic_sidebar( 'sidebar-1' ); ?>
