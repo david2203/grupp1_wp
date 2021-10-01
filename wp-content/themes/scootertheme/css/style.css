@@ -223,4 +223,5 @@ h4 {
 
 #secondary {
   width: 20%;
+  position: sticky;
 }
