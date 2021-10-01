@@ -12,10 +12,10 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
  
 //enqueing some styles
 function wpdocs_theme_name_scripts() {
- wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/css/bootstrap.css', array(), '0.1.0', 'all');
- wp_enqueue_style('fonts', get_stylesheet_directory_uri() . '/css/font-awesome.css', array(), '0.1.0', 'all');
+
+
  wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/css/style.css', array(), '0.1.0', 'all');
- wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/css/main.css', array(), '0.1.0', 'all');
+ wp_enqueue_style('main', get_stylesheet_directory_uri() . '/css/main.css', array(), '0.1.0', 'all');
  wp_enqueue_style('footer', get_stylesheet_directory_uri() . '/css/footer.css', array(), '0.1.0', 'all');
  wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/js/jquery.js', array(), '1.0.0', true );
  wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0.0', true );
@@ -153,6 +153,32 @@ function bbloomer_hide_shop_page_title($title) {
    if (is_shop()) $title = false;
    return $title;
 }
+
+//sidebar stuff
+function wpb_widgets_init() {
+ 
+    register_sidebar( array(
+        'name' => __( 'Main Sidebar', 'wpb' ),
+        'id' => 'sidebar-1',
+        'description' => __( 'The main sidebar appears on the right on each page except the front page template', 'wpb' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+ 
+    register_sidebar( array(
+        'name' =>__( 'Front page sidebar', 'wpb'),
+        'id' => 'sidebar-2',
+        'description' => __( 'Appears on the static front page template', 'wpb' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+    }
+ 
+add_action( 'widgets_init', 'wpb_widgets_init' );
    
 
 ?>

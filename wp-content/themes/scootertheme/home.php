@@ -1,6 +1,6 @@
 <?php  /* gets the code from header.php*/ get_header() ?>
 
-<main>
+<main class = "blogg">
 	<section>
 		<div class="container">
 			<div class="row">

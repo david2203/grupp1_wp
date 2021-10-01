@@ -1,0 +1,25 @@
+
+.woocommerce .content-area{
+    padding:4rem;
+}
+
+.woocommerce ul.products li.product{
+    border: 1px solid rgb(221, 221, 221);
+    color: white;
+    padding: 12px;
+}
+
+.woocommerce-loop-product__title {
+    color:rgb(88, 88, 88);
+}
+
+.woocommerce ul.products li.product .button {
+    background-color: grey;
+    color: white;
+    border-radius: 1px;
+}
+
+.woocommerce ul.products .onsale {
+    background-color: darkred;
+    border-radius: 1px;
+}
