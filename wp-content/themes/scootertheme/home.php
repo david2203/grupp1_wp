@@ -30,8 +30,8 @@
 										<i class="fa fa-tag"></i> <a href="kategori.html"><?php  /* Fetches the category of chosen posts */ the_category(", "); ?></a>
 									</li>
 								</ul>
-								<p><?php /* Fetches an excerpt of the content of chosen posts */ the_excerpt(); ?></p>
-
+								<p><?php /* Fetches an excerpt of the content of chosen posts */ the_content(); ?></p>
+									
 							</article>
 
 					<?php

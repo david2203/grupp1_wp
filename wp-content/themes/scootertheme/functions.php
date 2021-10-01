@@ -52,7 +52,8 @@ add_theme_support('menus');
 register_nav_menus(
  array(
  'header-menu' => 'Header Menu',
- 'title-menu' => 'Scooter Haven'
+ 'title-menu' => 'Scooter Haven',
+ 'snabba-links' => 'Footer Links',
  )
 );
 
