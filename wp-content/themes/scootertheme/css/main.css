@@ -1,5 +1,9 @@
 
 /* SHOP */
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
 
 .woocommerce .content-area{
     padding:4rem;
@@ -44,7 +48,7 @@
 } */
 
 .woocommerce  .summary .price {
-    padding: 50px 0px 60px;
+    padding: 30px 0px 60px;
 }
 
 .woocommerce .variations_form {
@@ -64,18 +68,18 @@
 
 /* Blogg */
 
-.woocommerce article {
+.woocommerce .blogg article {
     border: 1px solid darkgrey;
     width: 50vw;
     padding: 5%;
     margin: 5% 25%;
 }
 
-.woocommerce article img {
+.woocommerce .blogg article img {
     width: 100%;
 }
 
-.woocommerce article .title{
+.woocommerce .blogg article .title{
     text-decoration: none;
     color: rgb(68, 68, 68);
     padding: 5% 0%;   

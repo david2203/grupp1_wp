@@ -9,8 +9,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  margin:10% 0%;
+  text-align: center;
+}
+
 h4 {
     font-family: 'PT Mono', monospace;
+}
+
+input {
+  border: 1px solid grey
 }
   
   .navbar {
