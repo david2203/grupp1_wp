@@ -4,7 +4,7 @@
 			<div class="container">
 					<div class="fast-links">
 						<h4>Snabba länkar</h4>
-						<?php wp_nav_menu( array('theme_location' => 'header-menu', 'container' => 'ul', 'menu_class' => "footer__menu"));?>
+						<?php wp_nav_menu( array('theme_location' => 'snabba-links', 'container' => 'ul', 'menu_class' => "footer__menu"));?>
 							
 					</div>
 					

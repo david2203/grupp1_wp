@@ -1,4 +1,6 @@
-<?php get_header();?>
+<?php get_header();
+/*Template Name: rules */?>
+
 
 
 <!-- Allmäna villkor -->
@@ -151,3 +153,5 @@ Momsregistreringsnr.: DE 260543043
 <b>Scooter Haven partner</b>
 (som angiven på produktsidan för respektive produkt)
 Senast uppdaterade: 27.09.2021</pre>
+
+<?php get_footer();?>
