@@ -2,7 +2,7 @@
 /*Template Name: rules */?>
 
 
-
+<div class="rules-container">
 <!-- Allmäna villkor -->
 
 <h1>ALLMÄNNA VILLKOR SCOOTER HAVEN</h1>
@@ -155,3 +155,4 @@ Momsregistreringsnr.: DE 260543043
 Senast uppdaterade: 27.09.2021</pre>
 
 <?php get_footer();?>
+</div>

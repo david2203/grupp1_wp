@@ -231,5 +231,20 @@ h4 {
 
 #secondary {
   width: 20%;
-  position: sticky;
+  top: 120px;
+}
+
+/*Author in sidebar */
+.rpwwt-post-author {
+  color: red;
+}
+
+/*Post date in sidebar*/
+.rpwwt-post-date {
+  color: peru;
+}
+
+/*Comments in sidebar*/
+.rpwwt-post-comment-number {
+  color: green;
 }

@@ -30,4 +30,5 @@
         </div>
         <?php wp_nav_menu( array('theme_location' => 'header-menu', 'container' => 'ul', 'menu_class' => "navbar__menu"));?>
       </div>
+      <?php get_search_form(); ?>
     </nav>
