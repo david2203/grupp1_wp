@@ -20,7 +20,7 @@
     <nav class="navbar">
       <div class="navbar__container">
         <div class="navlogo-text">
-        <img class="img-logo" src="<?php echo get_home_url();?>/wp-content/uploads/2021/09/Scooter.png" alt="Scooterbild">
+        <img class="img-logo" src="" alt="Scooterbild">
         <?php wp_nav_menu( array('theme_location' => 'title-menu', 'menu_class' => "title__menu"));?>
 
         </div>
