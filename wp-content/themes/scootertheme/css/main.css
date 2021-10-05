@@ -3,6 +3,7 @@
 a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
+    padding: 0px 10px;
   }
 
 .woocommerce .content-area{
@@ -41,11 +42,6 @@ a {
     background-color: darkred;
     border-radius: 1px;
 }
-
-/* .woocommerce .summary {
-    border: 1px solid rgb(221, 221, 221);
-
-} */
 
 .woocommerce  .summary .price {
     padding: 30px 0px 60px;
@@ -87,4 +83,16 @@ a {
 
 .wp-block-buttons {
     padding: 5% 0%;   
+}
+
+
+/* Butiker/Karta */
+
+.woocommerce iframe {
+    margin: 5% 10%;
+    width: 80%;
+}
+
+.woocommerce .entry-content a {
+
 }
