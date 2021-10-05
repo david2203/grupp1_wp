@@ -85,6 +85,9 @@ a {
     padding: 5% 0%;   
 }
 
+.woocommerce .blogg .navigation {
+    text-align: center;
+}
 
 /* Butiker/Karta */
 
@@ -93,6 +96,4 @@ a {
     width: 80%;
 }
 
-.woocommerce .entry-content a {
 
-}
