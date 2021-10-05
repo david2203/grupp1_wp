@@ -256,3 +256,8 @@ input {
 .rpwwt-post-comment-number {
   color: green;
 }
+
+.rules-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
