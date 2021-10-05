@@ -10,11 +10,8 @@
 					
 					<div class="contact">
 						<h4>Kontakt</h4>
-						<p>
-							Scooter Haven<br />
-							Gatgatan 1<br />
-							123 45 Stockholm
-						</p>
+						<p>Huvudkontoret:</p>
+						<p>Västberga Allé 36A, 126 30 Hägersten</p>
 						<p>
 							Tel: 0123456789<br />
 							E-post: <a href="">info@scooterhaven.com</a>
