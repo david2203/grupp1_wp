@@ -120,6 +120,11 @@ a {
     margin: 10px 0px 20px;
 }
 
-.woocommerce form .searchform{
+.woocommerce form #searchform{
     width: 50%;
+}
+
+.woocommerce .woocommerce-MyAccount-content {
+    border: lightgrey 1px lightgrey;
+    margin: 5%;
 }
