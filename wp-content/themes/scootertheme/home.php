@@ -16,7 +16,7 @@
 							<article>
 								<img src="<?php /* Fetches the thumbnail url for chosen posts */ echo get_the_post_thumbnail_url(); ?>" />
 								<a href="<?php /* Fetches the permalink for chosen posts */ the_permalink(); ?>">
-									<h1 class="title"><?php /* Fetches the title for chosen posts */ the_title(); ?></h1>
+									<h3 class="title"><?php /* Fetches the title for chosen posts */ the_title(); ?></h3>
 								</a>
 								<!-- <ul class="meta">
 									<li>

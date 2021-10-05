@@ -23,7 +23,7 @@ a {
 .woocommerce ul.products li.product .button {
     background-color: grey;
     color: white;
-    border-radius: 1px;
+    border-radius: 30px;
 }
 
 .woocommerce ul.products .onsale {
@@ -96,3 +96,37 @@ a {
     width: 80%;
 }
 
+<<<<<<< HEAD
+=======
+
+/* Mitt konto  */
+.woocommerce .woocommerce ul {
+    border: solid 1px lightgrey;
+    padding:3px;
+}
+.woocommerce .woocommerce ul li {
+    border: lightgrey 1px lightgrey;
+    padding:3px;
+    margin: 5px;
+}
+
+.woocommerce-notices-wrapper{
+    border: lightgrey 1px lightgrey;
+    padding:3px;
+    margin: 15px;
+}
+
+.woocommerce form input {
+    border: solid 1px lightgrey;
+    padding:10px;
+    margin: 10px 0px 20px;
+}
+
+.woocommerce form #searchform{
+    width: 50%;
+}
+
+.woocommerce .woocommerce-MyAccount-content {
+    margin: 5%;
+}
+>>>>>>> 00924756fd84f9e2349bf2ae80af377f0251f7f4
