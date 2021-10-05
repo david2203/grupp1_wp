@@ -205,12 +205,12 @@ class WC_Gateway_Invoice extends WC_Payment_Gateway {
 			return true;
 		}
 
-		if ( Constants::is_true( 'REST_REQUEST' ) ) {
-			global $wp;
-			if ( isset( $wp->query_vars['rest_route'] ) && false !== strpos( $wp->query_vars['rest_route'], '/payment_gateways' ) ) {
-				return true;
-			}
-		}
+		// if ( Constants::is_true( 'REST_REQUEST' ) ) {
+		// 	global $wp;
+		// 	if ( isset( $wp->query_vars['rest_route'] ) && false !== strpos( $wp->query_vars['rest_route'], '/payment_gateways' ) ) {
+		// 		return true;
+		// 	}
+		// }
 
 		return false;
 	}
