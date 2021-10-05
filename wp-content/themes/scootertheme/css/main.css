@@ -23,7 +23,7 @@ a {
 .woocommerce ul.products li.product .button {
     background-color: grey;
     color: white;
-    border-radius: 1px;
+    border-radius: 30px;
 }
 
 .woocommerce ul.products .onsale {
