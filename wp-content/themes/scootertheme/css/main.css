@@ -115,7 +115,7 @@ a {
 }
 
 .woocommerce form input {
-    border: lightgrey 1px lightgrey;
+    border: solid 1px lightgrey;
     padding:10px;
     margin: 10px 0px 20px;
 }
@@ -125,6 +125,5 @@ a {
 }
 
 .woocommerce .woocommerce-MyAccount-content {
-    border: lightgrey 1px lightgrey;
     margin: 5%;
 }
