@@ -7,27 +7,43 @@
         padding: 2rem;
         color: grey;
         background-color: rgb(240, 240, 240);
+        text-align: left;
+    }
 
+    footer li {
+        font-size: 0.7rem;
+        border: 1px solid blue;
+        margin-right:50%;
+        text-align: left;
+        width: 40%;
+        height: 40%;
+    }
+
+    footer li a {
+        border: 1px solid red;
+        color: grey;
+        text-decoration: none;
+        padding:0px;
+        width: 70%;
+        text-align: left;
     }
 
     footer a {
         color: grey;
         text-decoration: none;
-        padding:10px;
+        text-align: left;
 
     }
+
+
 
     footer ul, footer li {
         text-decoration: none;
         list-style-type: none;
         list-style: none;
-    }
-
-    footer li {
-        font-size: 0.7rem;
+        text-align: left;
 
     }
-
     
     footer h4 {
         font-size: 0.9rem;
