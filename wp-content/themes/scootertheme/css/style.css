@@ -24,7 +24,7 @@ h4 {
 }
 
 input {
-  border: 1px solid grey
+  border: 1px solid grey;
 }
   
   .navbar {
@@ -78,14 +78,6 @@ input {
     font-size: 2rem;
     margin-left: 30px;
     width: 100%;
-  }
-  
-  .footer__menu {
-    display:flex;
-    flex-direction: column;
-  }
-  .footer__menu > li {
-    margin-top:-10px;
   }
   
   .navbar__menu {
