@@ -15,8 +15,7 @@ h1 {
 }
 
 h2 {
-  margin:5% 2%;
-  text-align: center;
+  margin:5% 0%;
 }
 
 h4 {
@@ -255,4 +254,9 @@ input {
 /*Comments in sidebar*/
 .rpwwt-post-comment-number {
   color: green;
+}
+
+.rules-container {
+  margin-left: 10%;
+  margin-right: 10%;
 }
