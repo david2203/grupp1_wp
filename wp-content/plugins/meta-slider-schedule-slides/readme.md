@@ -1,1 +1,0 @@
-MetaSlider Schedule Slides
