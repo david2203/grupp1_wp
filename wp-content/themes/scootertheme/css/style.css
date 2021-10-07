@@ -255,3 +255,10 @@ input {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+.wpforms-field-container {
+  margin-left: 10%;
+}
+.wpforms-submit-container > button {
+  margin-left: 10px;
+}
