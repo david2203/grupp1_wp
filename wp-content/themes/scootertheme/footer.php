@@ -2,11 +2,7 @@
 
 <footer id="footer">
 			<div class="container">
-					<div class="fast-links">
-						<h4>Snabba länkar</h4>
-						<?php wp_nav_menu( array('theme_location' => 'snabba-links', 'container' => 'ul', 'menu_class' => "footer__menu"));?>
-							
-					</div>
+					
 					
 					<div class="contact">
 						<h4>Kontakt</h4>
@@ -42,13 +38,14 @@ wp_reset_postdata(); ?>
 <?php endif; ?>
 
 
-						<div class="betalmetoder">
+						
+					</div>
+					<div class="betalmetoder">
 							<h4>Betalmetoder</h4>
 							<p>Klarna</p>
 							<p>Swish</p>
 							<p>PayPal</p>
 							
-						</div>
 					</div>
 
 
