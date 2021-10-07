@@ -97,7 +97,6 @@ a {
     width: 80%;
 }
 
-
 /* Mitt konto  */
 .woocommerce .woocommerce ul {
     border: solid 1px lightgrey;
@@ -132,7 +131,7 @@ a {
 
 /* kontakta oss */
 
-.woocommerce .wpforms-container .wpforms-field-container {
+.woocommerce .wpforms-container .wpforms-field-container, .woocommerce .wpforms-container .wpforms-submit-container {
     border: lightgrey 1px lightgrey;
     padding:3px;
     margin: 15%;
