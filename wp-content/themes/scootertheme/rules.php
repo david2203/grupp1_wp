@@ -154,5 +154,6 @@ Momsregistreringsnr.: DE 260543043
 (som angiven på produktsidan för respektive produkt)
 Senast uppdaterade: 27.09.2021</pre>
 
-<?php get_footer();?>
 </div>
+<?php get_footer();?>
+

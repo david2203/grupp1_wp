@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   margin:5% 0%;
+  text-align: center;
 }
 
 h4 {
@@ -132,6 +133,10 @@ input {
     width:100%;
   }
 
+  .primary {
+    width: 80%;
+  }
+
   @media screen and (max-width: 1100px) {
     .navbar__container {
       display: flex;
@@ -161,7 +166,7 @@ input {
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 99;
-      height: 60vh;
+      height: 70vh;
       font-size: 1.6rem;
       border: black 2px;
     }
@@ -221,14 +226,20 @@ input {
     #mobile-menu.is-active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-55deg);
     }
+
+    #secondary {
+      width: 20%;
+      top: 120px;
+      display: none;
+    }
+
+    .primary {
+      width: 100%;
+    }
   }
     
 .main {
   display: flex;
-}
-
-.primary {
-  width: 80%;
 }
 
 #secondary {
