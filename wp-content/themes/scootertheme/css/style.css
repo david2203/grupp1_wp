@@ -132,6 +132,10 @@ input {
     width:100%;
   }
 
+  .primary {
+    width: 80%;
+  }
+
   @media screen and (max-width: 1100px) {
     .navbar__container {
       display: flex;
@@ -221,14 +225,20 @@ input {
     #mobile-menu.is-active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-55deg);
     }
+
+    #secondary {
+      width: 20%;
+      top: 120px;
+      display: none;
+    }
+
+    .primary {
+      width: 100%;
+    }
   }
     
 .main {
   display: flex;
-}
-
-.primary {
-  width: 80%;
 }
 
 #secondary {
