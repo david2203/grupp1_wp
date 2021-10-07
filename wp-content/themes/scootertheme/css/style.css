@@ -161,7 +161,7 @@ input {
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 99;
-      height: 60vh;
+      height: 70vh;
       font-size: 1.6rem;
       border: black 2px;
     }
