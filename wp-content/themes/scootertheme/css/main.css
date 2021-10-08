@@ -136,3 +136,16 @@ a {
     padding:3px;
     margin: 15%;
 }
+
+/* search results */
+
+.woocommerce #primary #primary article {
+    border: lightgrey solid 1px;
+    width: 70%;
+    margin: 5% 15%;
+    padding: 20px;
+}
+
+.woocommerce #primary #primary ul{
+    list-style: inside none;
+}
