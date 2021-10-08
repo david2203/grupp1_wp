@@ -140,10 +140,17 @@ a {
 /* search results */
 
 .woocommerce #primary #primary article {
-    border: lightgrey solid 1px;
+    border-bottom: lightgrey solid 1px;
     width: 70%;
     margin: 5% 15%;
     padding: 20px;
+}
+
+.woocommerce #primary #primary article article{
+    border: white solid 1px;
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
 }
 
 .woocommerce #primary #primary ul{
